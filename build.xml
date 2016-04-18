@@ -15,8 +15,6 @@ basedir=".">
  <pathelement location="${main.build.dir}"/>
  <path refid="classpath.base" />
  </path>
-40. Create The Project Files
- 2016 Labs Page 15 
  </path>
  <target name="test" depends="run, clean" />
  <target name="compile">
